@@ -79,9 +79,9 @@ function my_keydown(e)
     }
     if(keyPressed == '87')
     {
-        new_image('wall.png');
+        new_image('wall.jpg');
         console.log("w");
-    }
+    } 
     if(keyPressed == '71')
     {
         new_image('ground.png');
@@ -94,10 +94,10 @@ function my_keydown(e)
     }
     if(keyPressed == '84')
     {
-        new_image('trunk.png'); 
+        new_image('trunk.jpg'); 
         console.log("t"); 
     }
-    if(keyPressed == '82')
+    if(keyPressed == '82') 
     {
         new_image(roof.jpg);
         console.log("r"); 
